@@ -1,47 +1,56 @@
 body{
     font-family: cursive, sans-serif;
     color: #000;
-    background: rgb(31, 30, 30)
+    background: #0581ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    min-width: 90vw;
 }
 #container{
-    width: 800px;
-    margin: 50px auto;
+    width: 360px;
     padding: 20px;
-    width: 50%;
     box-shadow: 2px 2px 4px #fff;
     border-radius: 12px;
-    background: rgb(124, 210, 231);
+    background: #fff;
+    padding: 2rem;
 }
 #container h2{
     text-align: center;
     color: #045;
 }
 #quoteContainer{
-    width: 75%;
+    width: 100%;
     background: transparent;
-    padding: 10px;
-    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 120px;
+    height: 150px;
+    transition: all .4s;
 }
 #buttonContainer{
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #quoteButton{
     width: 200px;
     margin-top: 10px;
-    border: 2px solid #070707;
+    border: 2px solid #0581ca;
     color: #045;
     font-family: inherit;
     font-weight: bold;
     padding: 5px;
     text-decoration: none;
     text-align: center;
+    border-radius: 5px;
 }
 #quoteButton:hover{
     cursor: pointer;
-    background: #09c;
+    background: #0581ca;
     color: #fff;
 }
 #quoteButton:active{
